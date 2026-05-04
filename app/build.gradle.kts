@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
 
     // Navigation
     implementation(libs.androidx.navigation.compose)
@@ -68,6 +69,9 @@ dependencies {
 
     // Splash Screen
     implementation(libs.androidx.splashscreen)
+
+    // Lifecycle
+    implementation(libs.androidx.lifecycle.runtime.compose)
 
     // Testing
     testImplementation(libs.junit)
