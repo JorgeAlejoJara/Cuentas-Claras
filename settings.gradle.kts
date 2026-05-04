@@ -24,4 +24,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "Cuentas Claras"
 include(":app")
- 
+include(":core")
+include(":core-ui")
+include(":feature-home")
+include(":feature-add")
+include(":feature-charts")
+include(":feature-budget")
